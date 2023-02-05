@@ -1,5 +1,5 @@
-import { Flex } from "./common/components";
+import { Flex } from "./components";
 
 export default function Main({ children }: { children: React.ReactNode }) {
-  return <Flex>{children}</Flex>;
+  return <Flex mx={"10%"}>{children}</Flex>;
 }

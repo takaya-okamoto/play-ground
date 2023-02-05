@@ -1,5 +1,5 @@
-import { Flex } from "./common/components";
+import { Flex } from "./components";
 
 export default function Header() {
-  return <Flex my={"2%"}></Flex>;
+  return <Flex mb={"4%"}></Flex>;
 }
