@@ -1,12 +1,12 @@
-import { FaFirstOrder } from "react-icons/all";
+import { AiOutlineEdit, FaFirstOrder } from "react-icons/all";
 import { MainLinkType } from "@/app/types/card/mainLinkType";
 
 export function useMainLinks(): MainLinkType[] {
   return [
     {
-      name: "first",
-      link: "firstLink",
-      icon: FaFirstOrder,
+      name: "lexical",
+      link: "/library/lexical",
+      icon: AiOutlineEdit,
     },
     {
       name: "first",
