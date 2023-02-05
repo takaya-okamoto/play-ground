@@ -1,5 +1,5 @@
 import { MainLinkType } from "@/app/types/card/mainLinkType";
-import { Flex, Link, Text, useMediaQuery } from "app/components/index";
+import { Flex, Link, Text } from "app/components/index";
 import NextLink from "next/link";
 
 export function MainLinkCard(props: MainLinkType) {
@@ -18,7 +18,15 @@ export function MainLinkCard(props: MainLinkType) {
         _hover={{ borderColor: "blue.600", transform: "scale(1.02)" }}
       >
         <props.icon size={"80px"} />
-        <Text> {props.name}</Text>
+        <Text
+          textAlign={"center"}
+          mt={"1rem"}
+          w={"130px"}
+          color={"blackAlpha.800"}
+          fontWeight={"bold"}
+        >
+          {props.name}
+        </Text>
       </Flex>
     </Link>
   );
